@@ -1,0 +1,84 @@
+.colorquo {
+    background: none repeat scroll 0 0 #555555;
+    border: 3px solid #656661;
+	position: relative;
+}
+
+.colorquo * {
+	position: absolute;
+	cursor: crosshair;
+}
+
+.colorquo {
+	width: 150px;
+	height: 150px;
+}
+.colorquo .q-show {
+   width:28px;
+   height:28px;
+   border: 0px solid #999;
+   background-color: #C2C2C2;
+   font-size: 16px;
+   line-height: 28px;
+   padding:0;
+   margin:0;
+   text-align:center;
+   vertical-align:center;
+   cursor: pointer;
+}
+.colorquo .q-hex  {
+    left: 30px;
+    width: 119px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #636166;
+    color: #E3DFEB;
+    height:29px;
+    border: 1px solid #949199;
+    border-radius: 0 0 0 0;
+	cursor: text;
+	vertical-align: center;
+   padding:0;
+   margin:0;
+}
+.colorquo .q-hex:focus {
+    box-shadow: 0 0 6px rgba(100, 100, 255, 0.85) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+.colorquo .q-hex.state-error {
+    border-color: red;
+}
+
+.colorquo .q-hex.state-error:focus {
+    box-shadow: 0 0 8px rgba(255, 0, 0, 0.95) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+.colorquo .q-color {
+	top: 30px;
+	left: 30px;
+	width: 120px;
+	height: 120px;
+}
+
+.colorquo .q-bar {
+	background: url(picker.png) no-repeat;
+	top: 30px;
+	width: 150px;
+	height: 150px;
+}
+
+.colorquo .q-marker {
+	width: 15px;
+	height: 15px;
+	margin: -7px 0 0 -7px;
+	overflow: hidden; 
+	background: url(marker.png) no-repeat;
+}
+.colorquo .q-indicator {
+	width: 9px;
+	height: 9px;
+	margin: -5px 0 0 -2px;
+	overflow: hidden; 
+	background: url(indicator.png) no-repeat;
+}
+
